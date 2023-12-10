@@ -1,0 +1,137 @@
+.foot {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.card {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.card:hover {
+    background-color: #495057;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #ffc107 !important;
+}
+
+.container1-fluid {
+    background: linear-gradient(to right, #212529 65%, #ffc107);
+    color: #fff;
+    padding: 50px;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+
+  
+  .gradient-overlay,
+  .herosection,
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .card,
+  .overlay-text,
+  .content,
+  .container2,
+  .contact-item {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+.content {
+    text-align: left;
+}
+
+h1,
+h2,
+p {
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-custom:hover {
+    background-color: #ffca2c;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container2 {
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: #007bff;
+}
+
+body {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.contact-item {
+    margin-top: 20px;
+}
+
+.contact-item i {
+    color: #007bff;
+}
+
+.contact-item p {
+    margin-bottom: 0;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
+    z-index: -1;
+  }
+
+  #my-contact p {
+    margin-top: 20px;
+}
+
+  
+
+
+
+
+
+
